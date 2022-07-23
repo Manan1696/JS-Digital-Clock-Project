@@ -1,0 +1,392 @@
+
+.main{
+    width: 100%;
+    height: 750px;
+    background-color: #3D087B;
+}
+
+.logo{
+    margin-left: 70px;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top: 45px;
+    left: 70px;
+}
+.clockmenu{
+    width: 38%;
+    height: 300px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    top: 170px;
+    left: 125px;
+}
+.meimage1{
+    margin-left: 7px;
+}
+.dropline1{
+    width: 1.5px;
+    height: 30px;
+    background-color: violet;
+    position: absolute;
+    top: 58px;
+    left: 40px;
+}
+.time1{
+    position: absolute;
+    top: 17px;
+    left: 80px;
+    font-size: 18px;
+    color: #2d1f75;   
+}
+.box1{
+    position: absolute;
+    right: 25px;
+    top: 16px;
+}
+.inside_box{
+	width:240px;
+    height: 30px;
+    color: black;
+    border-radius: 6px;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+.meimage2{
+    position: absolute;
+    top: 90px;
+    left: 25px;
+}
+.dropline2{
+    width: 1.5px;
+    height: 30px;
+    background-color: violet;
+    position: absolute;
+    top: 135px;
+    left: 40px;
+}
+.time2{
+    position: absolute;
+    top: 99px;
+    left: 80px;
+    font-size: 18px;
+    color: #2d1f75;
+    
+}
+.box2{
+    position: absolute;
+    right: 25px;
+    top: 95px;
+}
+.meimage3{
+    position: absolute;
+    top: 175px;
+    left: 25px;
+}
+.dropline3{
+    width: 1.5px;
+    height: 25px;
+    background-color: violet;
+    position: absolute;
+    top: 220px;
+    left: 40px;
+}
+.time3{
+    position: absolute;
+    top: 175px;
+    left: 80px;
+    font-size: 18px;
+    color: #2d1f75;
+    
+}
+.box3{
+    position: absolute;
+    right: 25px;
+    top: 173px;
+}
+.meimage4{
+    position: absolute;
+    top: 250px;
+    left: 28px;
+    width: 5px;
+}
+.time4{
+    position: absolute;
+    top: 254px;
+    left: 80px;
+    font-size: 18px;
+    color: #2d1f75;
+      
+}
+.box4{
+    position: absolute;
+    right: 25px;
+    top: 252px;
+}
+.message1{
+    width:500px;
+    height:50px;
+    position: absolute;
+    left: 130px;
+    bottom: 70px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color:#4C3575;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 24px;
+}
+.alert1{
+    position: absolute;
+    width: 16%;
+    height: 40px;
+    background-image: linear-gradient(to right,#8E53F0,#F25CFE);
+    color: white;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    bottom: 20px;
+    border-radius:12px;
+    left: 130px;
+    padding-top: 6px;
+}
+#alert1:hover{
+    background-image: linear-gradient(to right,#F25CFE,#8E53F0);
+
+}
+button #part{
+    display: none;
+}
+
+button:hover #set {
+    display: none;
+}
+  
+button:hover #part {
+    display: inline;
+}
+
+.clockresult{
+    position: absolute;
+    width: 270px;
+    height: 110px;
+    background-color:#9140B5;
+    top: 596px;
+    left: 365px;
+    border-radius: 12px;
+    color: white;
+    text-align: left;
+    padding: 2px;
+}
+
+.result{
+    padding-top: 4px;
+    padding-left: 10px;
+    font-size: large;
+    padding-right: 30px;
+    padding-bottom: 2px;
+}
+
+.liveclock{
+    display: flex;
+    position: absolute;
+    top: 80px;
+    right: 150px;
+    background-color: white;
+    width:470px;
+    height: 113px;
+    border-radius:10px;
+    z-index: 3;
+}
+
+.livebox1{
+    position: absolute;
+    top: 42px;
+    left: 35px;
+    color: #3D087B;
+    font-size: large;
+
+}
+
+.livebox2{
+    position: absolute;
+    top:15px;
+    left:90px;
+    width: 70px;
+    height: 76px;
+    background-color: #F6E2FF;
+    border-radius: 5px;
+}
+
+#hour{
+    position: absolute;
+    color: #8A11BF;
+    font-family:'Manrope', sans-serif;
+    top:10px;
+    left:15px;
+    font-size:25px;
+    padding-left: 12px;
+}
+
+#hourtext{
+    position: absolute;
+    color: #8A11BF;
+    font-family:'Manrope', sans-serif;
+    font-weight: lighter;
+    top:38px;
+    left:10px;
+    font-size: 20px;
+    padding-left: 2px;
+}
+
+#col1{
+    color:#3D087B;
+    position: absolute;
+    left:170px;
+    top:30px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.livebox3{
+    position: absolute;
+    top: 15px;
+    left:190px;
+    width: 70px;
+    height: 76px;
+    background-color: #F6E2FF;
+    border-radius: 5px;
+}
+
+#min{
+    position: absolute;
+    color: #8A11BF;
+    font-family:'Manrope', sans-serif;
+    top:10px;
+    left:15px;
+    font-size:25px;
+    padding-left: 6px;
+}
+
+#mintext{
+    position: absolute;
+    color: #8A11BF;
+    font-family:'Manrope', sans-serif;
+    font-weight: lighter;
+    top:38px;
+    left:10px;
+    font-size: 20px;
+    padding-left: 3px;
+}
+
+#col2{
+    color:#3D087B;
+    position: absolute;
+    left:270px;
+    top:30px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.livebox4{
+    position: absolute;
+    top: 15px;
+    left: 290px;
+    width: 70px;
+    height: 76px;
+    background-color: #F6E2FF;
+    border-radius: 5px;
+}
+
+#sec{
+    position: absolute;
+    color: #8A11BF;
+    font-family:'Manrope', sans-serif;
+    top:10px;
+    left:15px;
+    font-size:25px;
+    padding-left:7px;
+}
+
+#sectext{
+    position: absolute;
+    color: #8A11BF;
+    font-family:'Manrope', sans-serif;
+    font-weight: lighter;
+    top:38px;
+    left:10px;
+    font-size: 20px;
+    padding-left: 3px;
+}
+
+#livebox5{
+    position: absolute;
+    color:white;
+    font-family:'Manrope', sans-serif;
+    top:15px;
+    left: 375px;
+    width: 65px;
+    height: 60px;
+    background-image:url("AM_svg@2x.png");
+    border-radius:5px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+
+.liveclock1{
+    position: absolute;
+    top:100px;
+    right:200px;
+    background-color: white;
+    width:370px;
+    height: 113px;
+    border-radius:10px;
+    opacity: 0.22;
+    z-index: 2;
+}
+.liveclock2{
+    position: absolute;
+    top:100px;
+    right:250px;
+    background-color: white;
+    width:250px;
+    height: 130px;
+    border-radius:10px;
+    opacity: 0.22;
+    z-index: 1;
+}
+
+.message2{
+    position: absolute;
+    width: 476px;
+    height: 70px;
+    font-size: 23px;
+    background-color: white;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 50px;
+    top: 250px;
+    left: 725px;
+    border-radius: 12px;
+    color: #8E53F0;
+}
+
+.image{
+    background-image: url("opencur.png");
+    width:500px;
+    height:300px;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 380px;
+    right: 140px;
+}
