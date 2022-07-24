@@ -19,10 +19,13 @@
             <div class="dropline1"></div>
             <span class="time1">Set wake up time</span>
             <div class="box1">
-                <select name="morn" class="inside_box">
-                    <option class="opt" value="">6 AM - 7 AM</option>
-                    <option class="opt" value="">7 AM - 8 AM</option>
-                    <option class="opt" value="">8 AM - 9 AM</option>
+                <select name="morn" class="inside_box" id="mor">
+                    <option class="opt" value=6>6 AM - 7 AM</option>
+                    <option class="opt" value=7>7 AM - 8 AM</option>
+                    <option class="opt" value=8>8 AM - 9 AM</option>
+                    <option class="opt" value=9>9 AM - 10 AM</option>
+                    <option class="opt" value=10>10 AM - 11 AM</option>
+                    <option class="opt" value=11>11 AM - 12 PM</option>
                 </select>
             </div>
             <span class="meimage2">
@@ -31,10 +34,11 @@
             <div class="dropline2"></div>
             <span class="time2">Set lunch time</span>
             <div class="box2">
-                <select name="lunch" class="inside_box">
-                    <option class="opt" value="">12 PM - 1 PM</option>
-                    <option class="opt" value="">1 PM - 2 PM</option>
-                    <option class="opt" value="">2 PM - 3 PM</option>
+                <select name="lunch" class="inside_box" id="after">
+                    <option class="opt" value=12>12 PM - 1 PM</option>
+                    <option class="opt" value=13>1 PM - 2 PM</option>
+                    <option class="opt" value=14>2 PM - 3 PM</option>
+                    <option class="opt" value=15>3 PM - 4 PM</option>
                 </select>
             </div>
             <span class="meimage3">
@@ -43,10 +47,11 @@
             <div class="dropline3"></div>
             <span class="time3">Set nap time</span>
             <div class="box3">
-                <select name="nap" class="inside_box">
-                    <option class="opt" value="">3 PM - 4 PM</option>
-                    <option class="opt" value="">4 PM - 5 PM</option>
-                    <option class="opt" value="">5 PM - 6 PM</option>
+                <select name="nap" class="inside_box" id="even">
+                    <option class="opt" value=16>4 PM - 5 PM</option>
+                    <option class="opt" value=17>5 PM - 6 PM</option>
+                    <option class="opt" value=18>6 PM - 7 PM</option>
+                    <option class="opt" value=19>7 PM - 8 PM</option>
                 </select>
             </div>
             <span class="meimage4">
@@ -54,27 +59,33 @@
             </span>
             <span class="time4">Set night time</span>
             <div class="box4">
-                <select name="sleep" class="inside_box">
-                    <option class="opt" value="">8 PM - 9 PM</option>
-                    <option class="opt" value="">9 PM - 10 PM</option>
-                    <option class="opt" value="">10 PM - 11 PM</option>
-                    <option class="opt" value="">11 PM - 12 AM</option>
+                <select name="sleep" class="inside_box" id="nigh">
+
+                    <option class="opt" value=20>8 PM - 9 PM</option>
+                    <option class="opt" value=21>9 PM - 10 PM</option>
+                    <option class="opt" value=22>10 PM - 11 PM</option>
+                    <option class="opt" value=23>11 PM - 12 AM</option>
+                    <option class="opt" value=0>12 AM - 1 AM</option>
+                    <option class="opt" value=1>1 AM - 2 AM</option>
+                    <option class="opt" value=2>2 AM - 3 AM</option>
+                    <option class="opt" value=3>3 AM - 4 AM</option>
+                    <option class="opt" value=4>4 AM - 5 AM</option>
+                    <option class="opt" value=5>5 AM - 6 AM</option>
                 </select>
             </div>
         </div>
         <div class = "message1">GOOD MORNING!! WAKE UP !!</div>
-        <button class = "alert1">
-            <span id = "set">Set Alarm</span>
+        <button onclick="clickMe()" class = "alert1">
+            <span id = "set">Set Alarm</span>   
             <span id = "part">Party Time!</span>
         </button>
 
-        <div class="set" onclick="displayGreeting()"> </div>
         
         <div class="clockresult">
-            <div class="result"> Wake Up Time : <br></div>
-            <div class="result"> Lunch Time : <br></div>
-            <div class="result"> Nap Time : <br></div>
-            <div class="result">Night Time : </div>
+            <div class="result"> Wake Up Time : <span id="cloOne">Select Time</span><br></div>
+            <div class="result"> Lunch Time : <span id="cloTwo">Select Time</span><br></div>
+            <div class="result"> Nap Time : <span id="cloThree">Select Time</span><br></div>
+            <div class="result">Night Time : <span id="cloFour">Select Time</span></div>
         </div>
         <div class = "liveclock">
             <div class = "livebox1">TIME</div>
