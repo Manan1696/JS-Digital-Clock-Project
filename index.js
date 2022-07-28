@@ -10,9 +10,7 @@ function displayTime(){
     }else{
         session.innerHTML = 'AM'; 
     }
-    if(hrs > 12){
-        hrs = hrs - 12;   
-    }
+    
     document.getElementById('hour').innerHTML = hrs;   
     document.getElementById('min').innerHTML = min;  
     document.getElementById('sec').innerHTML = sec;  
@@ -58,10 +56,4 @@ function clickMe(){
     document.querySelector('#cloFour').textContent = textFour;        
 }
 
-//     if(demoOne == realHr){
-//         document.getElementById("greet1").innerText= "GOOD MORNING!! WAKE UP !!"
-//         document.getElementById("greet_msg").innerText= "GRAB SOME HEALTHY BREAKFAST!!!"
-//         document.getElementById("images").src= "Component.jpg";
-//     }
-// demoOne =  wake.options[wake.selectedIndex].value;
     
